@@ -35,13 +35,13 @@ export const models: GlassesModel[] = [
     gen: 'Gen 2',
     tagline: 'O ícone reinventado com tecnologia de última geração.',
     thumb: m('Wayfarer (Gen 2)', 'Preto brilhante', '01.webp'),
-    sizes: ['Padrão', 'Grande'],
-    fits: ['Ponte Alta'],
-    price: 'R$ 397,90',
-    originalPrice: 'R$ 599,00',
+    sizes: ['Standard', 'Large'],
+    fits: ['High Bridge'],
+    price: '$ 397.90',
+    originalPrice: '$ 599.00',
     colors: [
       {
-        name: 'Preto Brilhante',
+        name: 'Glossy Black',
         swatch: '#2A2A2A',
         image: m('Wayfarer (Gen 2)', 'Preto brilhante', '01.webp'),
         images: [
@@ -53,7 +53,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte',
+        name: 'Matte Black',
         swatch: '#1A1A1A',
         image: m('Wayfarer (Gen 2)', 'Preto Matte', '01.webp'),
         images: [
@@ -64,7 +64,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte Grafite Degradê',
+        name: 'Matte Black Graphite Gradient',
         swatch: '#404040',
         image: m('Wayfarer (Gen 2)', 'preto matte grafite degrade', '01.webp'),
         images: [
@@ -76,7 +76,7 @@ export const models: GlassesModel[] = [
       },
       {
         // 01 é mp4 → primeira imagem estática é 02.webp
-        name: 'Azul Cósmico Brilhante',
+        name: 'Glossy Cosmic Blue',
         swatch: '#1A3FA8',
         image: m('Wayfarer (Gen 2)', 'Azul Cósmico Brilhante', '02.webp'),
         images: [
@@ -88,7 +88,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Transitions® Verde Grafite',
+        name: 'Glossy Black Transitions® Graphite Green',
         swatch: '#1A3D22',
         image: m('Wayfarer (Gen 2)', 'Preto brilhante transitions transparente a verde grafite', '02.webp'),
         images: [
@@ -99,7 +99,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte Transitions® Cinza',
+        name: 'Matte Black Transitions® Gray',
         swatch: '#3A3A3A',
         image: m('Wayfarer (Gen 2)', 'Preto Matte transitions transparente e cinza', '02.webp'),
         images: [
@@ -119,13 +119,13 @@ export const models: GlassesModel[] = [
     gen: 'Gen 1',
     tagline: 'O clássico que começou a revolução dos smart glasses.',
     thumb: m('Wayfarer (Gen 1)', 'Preto brilhante', 'DM_20260320155948_001.WEBP'),
-    sizes: ['Padrão', 'Grande'],
-    fits: ['Ponte Alta'],
-    price: 'R$ 397,90',
-    originalPrice: 'R$ 599,00',
+    sizes: ['Standard', 'Large'],
+    fits: ['High Bridge'],
+    price: '$ 397.90',
+    originalPrice: '$ 599.00',
     colors: [
       {
-        name: 'Preto Brilhante',
+        name: 'Glossy Black',
         swatch: '#2A2A2A',
         image: m('Wayfarer (Gen 1)', 'Preto brilhante', 'DM_20260320155948_001.WEBP'),
         images: [
@@ -136,7 +136,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Verde',
+        name: 'Glossy Black Green',
         swatch: '#1A3D1A',
         image: m('Wayfarer (Gen 1)', 'preto brilhante verde', 'DM_20260320155510_001.webp'),
         images: [
@@ -147,7 +147,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte Grafite Degradê',
+        name: 'Matte Black Graphite Gradient',
         swatch: '#383838',
         image: m('Wayfarer (Gen 1)', 'preto matte grafite degrade', '01.webp'),
         images: [
@@ -156,7 +156,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte Transitions® Verde Grafite',
+        name: 'Matte Black Transitions® Graphite Green',
         swatch: '#2D402D',
         image: m('Wayfarer (Gen 1)', 'Preto Matte transparentes a verde grafite', 'DM_20260320155619_001.webp'),
         images: [
@@ -166,7 +166,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Caramelo Brilhante Transparente',
+        name: 'Glossy Caramel Transparent',
         swatch: '#C8916A',
         image: m('Wayfarer (Gen 1)', 'Caramelo brilhante transparente', 'DM_20260320155723_001.WEBP'),
         images: [
@@ -177,7 +177,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Jeans Matte Transparente',
+        name: 'Matte Denim Transparent',
         swatch: '#4A6A8E',
         image: m('Wayfarer (Gen 1)', 'Jeans matte transparente', 'DM_20260320155841_001.WEBP'),
         images: [
@@ -188,7 +188,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Marrom Brilhante Transparente',
+        name: 'Glossy Brown Transparent',
         swatch: '#7B3A1A',
         image: m('Wayfarer (Gen 1)', 'Marrom brilhante transparente', 'DM_20260320160054_001.WEBP'),
         images: [
@@ -208,13 +208,13 @@ export const models: GlassesModel[] = [
     gen: 'Gen 2',
     tagline: 'Design feminino com a mais alta performance.',
     thumb: m('Skyler Gen 2', 'Cinza-esbranquiçado brilhante', 'DM_20260320162858_001.WEBP'),
-    sizes: ['Padrão'],
-    fits: ['Ponte Alta'],
-    price: 'R$ 397,90',
-    originalPrice: 'R$ 599,00',
+    sizes: ['Standard'],
+    fits: ['High Bridge'],
+    price: '$ 397.90',
+    originalPrice: '$ 599.00',
     colors: [
       {
-        name: 'Cinza-esbranquiçado Brilhante',
+        name: 'Glossy Shiny White',
         swatch: '#B8C8D8',
         image: m('Skyler Gen 2', 'Cinza-esbranquiçado brilhante', 'DM_20260320162858_001.WEBP'),
         images: [
@@ -225,7 +225,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Verde',
+        name: 'Glossy Black Green',
         swatch: '#1A3D1A',
         image: m('Skyler Gen 2', 'Preto Brilhante verde', 'DM_20260320162729_001.WEBP'),
         images: [
@@ -236,7 +236,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Clear',
+        name: 'Glossy Black Clear',
         swatch: '#2A2A2A',
         image: m('Skyler Gen 2', 'Preto brilhante clear', 'DM_20260320163009_001.WEBP'),
         images: [
@@ -248,7 +248,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Transitions® Verde Grafite',
+        name: 'Glossy Black Transitions® Graphite Green',
         swatch: '#2D402D',
         image: m('Skyler Gen 2', 'Preto brilhante traansparente a verde grafite', 'DM_20260320162941_001.WEBP'),
         images: [
@@ -259,7 +259,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Transitions® Ametista',
+        name: 'Glossy Black Transitions® Amethyst',
         swatch: '#4A1A6B',
         image: m('Skyler Gen 2', 'Preto brilhante transparente a ametista', 'DM_20260320163058_001.WEBP'),
         images: [
@@ -269,7 +269,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Violeta Místico Brilhante',
+        name: 'Glossy Mystic Violet',
         swatch: '#6B3FA0',
         image: m('Skyler Gen 2', 'Violeta místico brilhante', 'DM_20260320163137_001.WEBP'),
         images: [
@@ -281,7 +281,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Grafite Degradê',
+        name: 'Glossy Black Graphite Gradient',
         swatch: '#383838',
         image: m('Skyler Gen 2', 'preto brilhante grafite degrade', 'DM_20260320162818_001.WEBP'),
         images: [
@@ -301,13 +301,13 @@ export const models: GlassesModel[] = [
     gen: 'Gen 1',
     tagline: 'O design que combina estilo e tecnologia.',
     thumb: m('Skyler Gen 1', 'preto brilhante', 'DM_20260320162431_001.WEBP'),
-    sizes: ['Padrão'],
-    fits: ['Ponte Alta'],
-    price: 'R$ 397,90',
-    originalPrice: 'R$ 599,00',
+    sizes: ['Standard'],
+    fits: ['High Bridge'],
+    price: '$ 397.90',
+    originalPrice: '$ 599.00',
     colors: [
       {
-        name: 'Preto Brilhante',
+        name: 'Glossy Black',
         swatch: '#2A2A2A',
         image: m('Skyler Gen 1', 'preto brilhante', 'DM_20260320162431_001.WEBP'),
         images: [
@@ -318,7 +318,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Verde',
+        name: 'Glossy Black Green',
         swatch: '#1A3D1A',
         image: m('Skyler Gen 1', 'Preto brilhante verde', 'DM_20260320162356_001.WEBP'),
         images: [
@@ -328,7 +328,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Cinza-esbranquiçado Brilhante',
+        name: 'Glossy Shiny White',
         swatch: '#B8C8D8',
         image: m('Skyler Gen 1', 'Cinza-esbranquiçado brilhante', 'DM_20260320162321_001.WEBP'),
         images: [
@@ -339,7 +339,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Cinza-esbranquiçado Rosa Canela',
+        name: 'Shiny White Cinnamon Rose',
         swatch: '#C4B8C0',
         image: m('Skyler Gen 1', 'Cinza-esbranquiçado brilhante rosa canela', 'DM_20260320162547_001.WEBP'),
         images: [
@@ -350,7 +350,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Transitions® Ametista',
+        name: 'Glossy Black Transitions® Amethyst',
         swatch: '#4A1A6B',
         image: m('Skyler Gen 1', 'preto brilhante transprantes a ametista', 'DM_20260320162520_001.WEBP'),
         images: [
@@ -360,7 +360,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Azul Ciano',
+        name: 'Glossy Black Cyan Blue',
         swatch: '#1A3D6B',
         image: m('Skyler Gen 1', 'Preto brilhante suave a azul ciano', 'DM_20260320162641_001.WEBP'),
         images: [
@@ -381,13 +381,13 @@ export const models: GlassesModel[] = [
     gen: 'Gen 2',
     tagline: 'Oversized icônico com câmera e áudio de nível superior.',
     thumb: m('Headliner (Gen 2)', 'Preto brilhante transparente a safira', 'DM_20260320161505_001.WEBP'),
-    sizes: ['Padrão', 'Grande'],
-    fits: ['Ponte Alta', 'Ponte Baixa'],
-    price: 'R$ 397,90',
-    originalPrice: 'R$ 599,00',
+    sizes: ['Standard', 'Large'],
+    fits: ['High Bridge', 'Low Bridge'],
+    price: '$ 397.90',
+    originalPrice: '$ 599.00',
     colors: [
       {
-        name: 'Preto Brilhante Transparente a Safira',
+        name: 'Glossy Black Transparent Sapphire',
         swatch: '#1A2D5A',
         image: m('Headliner (Gen 2)', 'Preto brilhante transparente a safira', 'DM_20260320161505_001.WEBP'),
         images: [
@@ -397,7 +397,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte',
+        name: 'Matte Black',
         swatch: '#1A1A1A',
         image: m('Headliner (Gen 2)', 'preto matte', 'DM_20260320161229_001.WEBP'),
         images: [
@@ -408,7 +408,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte Grafite Degradê',
+        name: 'Matte Black Graphite Gradient',
         swatch: '#404040',
         image: m('Headliner (Gen 2)', 'Preto Matte grafite degrade', 'DM_20260320161329_001.WEBP'),
         images: [
@@ -419,7 +419,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Verde Grafite',
+        name: 'Glossy Black Graphite Green',
         swatch: '#1A3D22',
         image: m('Headliner (Gen 2)', 'Preto brilhante transparente a verde grafite', 'DM_20260320161406_001.WEBP'),
         images: [
@@ -429,7 +429,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Cinza Asteroide Transparente a Esmeralda',
+        name: 'Asteroid Gray Transparent Emerald',
         swatch: '#2D5A3D',
         image: m('Headliner (Gen 2)', 'Cinza asteroide brilhante Transparentes a Esmeralda', 'DM_20260320161156_001.WEBP'),
         images: [
@@ -440,7 +440,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte Verde',
+        name: 'Matte Black Green',
         swatch: '#1E3A2A',
         image: m('Headliner (Gen 2)', 'preto matte verde', 'DM_20260320161259_001.WEBP'),
         images: [
@@ -461,13 +461,13 @@ export const models: GlassesModel[] = [
     gen: 'Gen 1',
     tagline: 'Grande personalidade, presença marcante.',
     thumb: m('Headliner (Gen 1)', 'Preto brilhante', 'DM_20260320160819_001.WEBP'),
-    sizes: ['Padrão'],
-    fits: ['Ponte Alta', 'Ponte Baixa'],
-    price: 'R$ 397,90',
-    originalPrice: 'R$ 599,00',
+    sizes: ['Standard'],
+    fits: ['High Bridge', 'Low Bridge'],
+    price: '$ 397.90',
+    originalPrice: '$ 599.00',
     colors: [
       {
-        name: 'Preto Brilhante',
+        name: 'Glossy Black',
         swatch: '#2A2A2A',
         image: m('Headliner (Gen 1)', 'Preto brilhante', 'DM_20260320160819_001.WEBP'),
         images: [
@@ -478,7 +478,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Brilhante Transparente a Safira',
+        name: 'Glossy Black Transparent Sapphire',
         swatch: '#1A2D5A',
         image: m('Headliner (Gen 1)', 'Preto brilhante Transparentes a Safira', 'DM_20260320160520_001.WEBP'),
         images: [
@@ -488,7 +488,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte Carvão',
+        name: 'Matte Black Charcoal',
         swatch: '#1E1E1E',
         image: m('Headliner (Gen 1)', 'Preto Matte Preto carvão', 'DM_20260320160607_001.WEBP'),
         images: [
@@ -499,7 +499,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Preto Matte Transitions® Cinza',
+        name: 'Matte Black Transitions® Gray',
         swatch: '#3A3A3A',
         image: m('Headliner (Gen 1)', 'Preto Matte transprarentes a cinza', 'DM_20260320160704_001.WEBP'),
         images: [
@@ -510,7 +510,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Marrom Brilhante Transparente',
+        name: 'Glossy Brown Transparent',
         swatch: '#7B3A1A',
         image: m('Headliner (Gen 1)', 'Marrom brilhante transparente', 'DM_20260320160757_001.WEBP'),
         images: [
@@ -530,10 +530,10 @@ export const models: GlassesModel[] = [
     gen: 'Oakley',
     tagline: 'Performance atlética para o treino de alta intensidade.',
     thumb: m('Vanguard', 'Prizm 24K', 'DM_20260320163950_001.WEBP'),
-    sizes: ['Padrão'],
-    fits: ['Ponte Alta'],
-    price: 'R$ 397,90',
-    originalPrice: 'R$ 599,00',
+    sizes: ['Standard'],
+    fits: ['High Bridge'],
+    price: '$ 397.90',
+    originalPrice: '$ 599.00',
     colors: [
       {
         name: 'Prizm™ 24K',
@@ -547,7 +547,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Branco / Prizm™ Black',
+        name: 'White / Prizm™ Black',
         swatch: '#D8D8D8',
         image: m('Vanguard', 'Branco Prizm Black', 'DM_20260320164024_001.WEBP'),
         images: [
@@ -589,10 +589,10 @@ export const models: GlassesModel[] = [
     gen: 'Oakley',
     tagline: 'Estilo de vida ativo para o uso diário e esportes leves.',
     thumb: m('HSTN', 'Black clear', 'DM_20260320163451_001.WEBP'),
-    sizes: ['Padrão'],
-    fits: ['Ponte Alta'],
-    price: 'R$ 397,90',
-    originalPrice: 'R$ 599,00',
+    sizes: ['Standard'],
+    fits: ['High Bridge'],
+    price: '$ 397.90',
+    originalPrice: '$ 599.00',
     colors: [
       {
         name: 'Black Clear',
@@ -639,7 +639,7 @@ export const models: GlassesModel[] = [
         ],
       },
       {
-        name: 'Clear / Transitions® Cinza',
+        name: 'Clear / Transitions® Gray',
         swatch: '#D8DCE8',
         image: m('HSTN', 'Clear', 'DM_20260320163750_001.WEBP'),
         images: [

@@ -7,9 +7,9 @@ import { cn } from '@/lib/utils'
 const CF_EMBED_DESKTOP =
   'https://customer-siyy2ilzb5oakkgv.cloudflarestream.com/1438dfac981eb0935ddf6ceab521c142/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-siyy2ilzb5oakkgv.cloudflarestream.com%2F1438dfac981eb0935ddf6ceab521c142%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false'
 
-/* Vídeo portrait — mobile (padding-top: 203.57% → aspect 1/2.0357) */
+/* Video portrait — mobile (padding-top: 203.33% → aspect 1/2.0333) */
 const CF_EMBED_MOBILE =
-  'https://customer-siyy2ilzb5oakkgv.cloudflarestream.com/9a9cef0ab9c2cd3a5fa16dd29b004f3e/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-siyy2ilzb5oakkgv.cloudflarestream.com%2F9a9cef0ab9c2cd3a5fa16dd29b004f3e%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false'
+  'https://customer-siyy2ilzb5oakkgv.cloudflarestream.com/c8dc3d698f2e3c265dc1b53e04ee5ce6/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-siyy2ilzb5oakkgv.cloudflarestream.com%2Fc8dc3d698f2e3c265dc1b53e04ee5ce6%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false'
 
 /* ── Ícone Meta Glasses ── */
 function MetaGlassesIcon() {
@@ -60,7 +60,7 @@ export function Hero() {
         style={{
           border: 'none',
           pointerEvents: 'none',
-          aspectRatio: '1 / 2.0357',
+          aspectRatio: '1 / 2.0333',
           minWidth: '100%',
           minHeight: '100%',
           width: 'auto',
@@ -95,10 +95,10 @@ export function Hero() {
           {/* Price */}
           <div className="hero-item-3 flex items-center gap-3 flex-wrap">
             <span className="font-sans text-sm text-text-4 line-through leading-none">
-              R$&nbsp;599,00
+              $&nbsp;599.00
             </span>
             <span className="font-sans text-[32px] font-bold leading-none text-text-1 tracking-tight">
-              R$&nbsp;397,90
+              $&nbsp;397.90
             </span>
             <span className="inline-flex items-center rounded-pill px-3 py-1 text-[11px] font-semibold bg-[#EBF1FC] text-[#0457CB] border border-[#C2D5F5] leading-none">
               -34% OFF

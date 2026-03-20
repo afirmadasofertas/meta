@@ -629,7 +629,7 @@ export function ProductConfigurator() {
 
                 <p className="font-sans text-[12px] text-text-4">
                   Up to{' '}
-                  <strong className="text-text-2 font-semibold">12x of R$ 33.16</strong>{' '}
+                  <strong className="text-text-2 font-semibold">12x of $ 33.16</strong>{' '}
                   interest-free · Free shipping
                 </p>
 
