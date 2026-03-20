@@ -16,18 +16,18 @@ const frames = Array.from(
 const steps = [
   {
     num: '01',
-    title: 'Vista e esqueça que está usando',
-    body: 'Os Meta Glasses foram feitos para desaparecer no seu rosto. Leves, discretos, confortáveis para o dia todo.',
+    title: 'Wear and forget you have them on',
+    body: 'Meta Glasses were designed to disappear on your face. Lightweight, discreet, comfortable all day long.',
   },
   {
     num: '02',
-    title: 'Toque. Uma vez.',
-    body: 'Um toque para gravar, um para fotos, um para pausar a música. Sem menus, sem senha, sem espera. O momento não espera — seu óculos também não.',
+    title: 'One tap.',
+    body: 'One tap to record, one for photos, one to pause music. No menus, no password, no waiting. The moment won\'t wait - and neither will your glasses.',
   },
   {
     num: '03',
-    title: 'Compartilhe quando quiser',
-    body: 'Tudo sincroniza automaticamente com o app. Quando você chegar em casa — ou quando quiser — seus melhores momentos já estão prontos para compartilhar.',
+    title: 'Share whenever you want',
+    body: 'Everything syncs automatically with the app. When you get home - or whenever you want - your best moments are already ready to share.',
   },
 ]
 
@@ -160,9 +160,9 @@ export function ScrollStory() {
                 className="font-sans font-medium tracking-[-0.03em] leading-[1.1] mb-14"
                 style={{ fontSize: 'clamp(26px, 3vw, 44px)', color: headingColor }}
               >
-                Simples o suficiente
+                Simple enough
                 <br />
-                <span className="font-normal opacity-40">para não pensar.</span>
+                <span className="font-normal opacity-40">not to think about it.</span>
               </motion.h2>
 
               <div className="flex flex-col">

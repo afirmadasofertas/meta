@@ -22,7 +22,7 @@ export function Newsletter() {
             className="font-sans font-medium text-text-1 tracking-[-0.03em] leading-[1.1] mb-8"
             style={{ fontSize: 'clamp(20px, 3vw, 30px)' }}
           >
-            Receba notícias e atualizações
+            Get news and updates
           </h2>
 
           {/* Form */}
@@ -57,16 +57,16 @@ export function Newsletter() {
                 'hover:bg-brand-hover transition-colors duration-200',
               )}
             >
-              Cadastrar-se
+              Subscribe
             </motion.button>
           </div>
 
           {/* Disclaimer */}
           <p className="mt-4 font-sans text-[11px] text-text-4 leading-[1.6]">
-            Ao se cadastrar, você concorda em receber atualizações e mensagens de marketing
-            da Meta sobre os produtos e serviços existentes e futuros da Meta.
-            Você poderá retirar seu consentimento e cancelar o recebimento quando quiser
-            clicando no link de cancelamento de assinatura incluído em nossas mensagens.
+            By subscribing, you agree to receive updates and marketing messages
+            from Meta about Meta's existing and future products and services.
+            You can withdraw your consent and unsubscribe at any time
+            by clicking the unsubscribe link included in our messages.
           </p>
         </motion.div>
       </div>

@@ -16,74 +16,74 @@ const genStyle: Record<GenLabel, string> = {
 // ─── Guia de tamanhos ─────────────────────────────────────────────────────────
 const sizeGuide = [
   {
-    name: 'Oakley Meta HSTN (padrão)',
+    name: 'Oakley Meta HSTN (standard)',
     specs: [
-      ['Dobradiça a dobradiça', '133 mm'], ['Altura da lente', '43 mm'],
-      ['Largura da lente', '49 mm'],       ['Largura da ponte', '23 mm'],
-      ['Comprimento da haste', '145 mm'],
+      ['Hinge to hinge', '133 mm'], ['Lens height', '43 mm'],
+      ['Lens width', '49 mm'],      ['Bridge width', '23 mm'],
+      ['Temple length', '145 mm'],
     ],
   },
   {
     name: 'Oakley Meta Vanguard',
     specs: [
-      ['Dobradiça a dobradiça', '136 mm'], ['Altura da lente', '53 mm'],
-      ['Largura da lente', '152 mm'],      ['Comprimento da haste', '120 mm'],
+      ['Hinge to hinge', '136 mm'], ['Lens height', '53 mm'],
+      ['Lens width', '152 mm'],     ['Temple length', '120 mm'],
     ],
   },
   {
-    name: 'Ray-Ban Meta Wayfarer (padrão)',
+    name: 'Ray-Ban Meta Wayfarer (standard)',
     specs: [
-      ['Dobradiça a dobradiça', '131 mm'], ['Altura da lente', '41 mm'],
-      ['Largura da lente', '50 mm'],       ['Largura da ponte', '22 mm'],
-      ['Comprimento da haste', '150 mm'],
+      ['Hinge to hinge', '131 mm'], ['Lens height', '41 mm'],
+      ['Lens width', '50 mm'],      ['Bridge width', '22 mm'],
+      ['Temple length', '150 mm'],
     ],
   },
   {
-    name: 'Ray-Ban Meta Wayfarer (grande)',
+    name: 'Ray-Ban Meta Wayfarer (large)',
     specs: [
-      ['Dobradiça a dobradiça', '137 mm'], ['Altura da lente', '44 mm'],
-      ['Largura da lente', '53 mm'],       ['Largura da ponte', '22 mm'],
-      ['Comprimento da haste', '155 mm'],
+      ['Hinge to hinge', '137 mm'], ['Lens height', '44 mm'],
+      ['Lens width', '53 mm'],      ['Bridge width', '22 mm'],
+      ['Temple length', '155 mm'],
     ],
   },
   {
     name: 'Ray-Ban Meta Headliner (LBF)',
     specs: [
-      ['Dobradiça a dobradiça', '134 mm'], ['Altura da lente', '44 mm'],
-      ['Largura da lente', '51 mm'],       ['Largura da ponte', '23 mm'],
-      ['Comprimento das hastes', '150 mm'],
+      ['Hinge to hinge', '134 mm'], ['Lens height', '44 mm'],
+      ['Lens width', '51 mm'],      ['Bridge width', '23 mm'],
+      ['Temple length', '150 mm'],
     ],
   },
   {
     name: 'Ray-Ban Meta Headliner (HBF)',
     specs: [
-      ['Dobradiça a dobradiça', '132 mm'], ['Altura da lente', '43 mm'],
-      ['Largura da lente', '50 mm'],       ['Largura da ponte', '23 mm'],
-      ['Comprimento das hastes', '150 mm'],
+      ['Hinge to hinge', '132 mm'], ['Lens height', '43 mm'],
+      ['Lens width', '50 mm'],      ['Bridge width', '23 mm'],
+      ['Temple length', '150 mm'],
     ],
   },
   {
-    name: 'Ray-Ban Meta Skyler (padrão)',
+    name: 'Ray-Ban Meta Skyler (standard)',
     specs: [
-      ['Dobradiça a dobradiça', '133 mm'], ['Altura da lente', '42 mm'],
-      ['Largura da lente', '52 mm'],       ['Largura da ponte', '20 mm'],
-      ['Comprimento da haste', '150 mm'],
+      ['Hinge to hinge', '133 mm'], ['Lens height', '42 mm'],
+      ['Lens width', '52 mm'],      ['Bridge width', '20 mm'],
+      ['Temple length', '150 mm'],
     ],
   },
   {
-    name: 'Meta Ray-Ban Display (padrão)',
+    name: 'Meta Ray-Ban Display (standard)',
     specs: [
-      ['Dobradiça a dobradiça', '144 mm'], ['Altura da lente', '40 mm'],
-      ['Largura da lente', '47 mm'],       ['Largura da ponte', '23 mm'],
-      ['Comprimento das hastes', '129 mm'],
+      ['Hinge to hinge', '144 mm'], ['Lens height', '40 mm'],
+      ['Lens width', '47 mm'],      ['Bridge width', '23 mm'],
+      ['Temple length', '129 mm'],
     ],
   },
   {
-    name: 'Meta Ray-Ban Display (grande)',
+    name: 'Meta Ray-Ban Display (large)',
     specs: [
-      ['Dobradiça a dobradiça', '150 mm'], ['Altura da lente', '40 mm'],
-      ['Largura da lente', '50 mm'],       ['Largura da ponte', '23 mm'],
-      ['Comprimento das hastes', '135 mm'],
+      ['Hinge to hinge', '150 mm'], ['Lens height', '40 mm'],
+      ['Lens width', '50 mm'],      ['Bridge width', '23 mm'],
+      ['Temple length', '135 mm'],
     ],
   },
 ]
@@ -116,15 +116,15 @@ function SizeGuideModal({ onClose }: { onClose: () => void }) {
           <div className="flex items-start justify-between px-6 pt-6 pb-4 border-b border-border">
             <div>
               <h3 className="font-sans text-lg font-semibold text-text-1 tracking-[-0.01em]">
-                Guia de tamanhos
+                Size guide
               </h3>
               <p className="mt-0.5 font-sans text-sm text-text-3">
-                Encontre o ajuste perfeito para você
+                Find the perfect fit for you
               </p>
             </div>
             <button
               onClick={onClose}
-              aria-label="Fechar"
+              aria-label="Close"
               className="w-8 h-8 rounded-full flex items-center justify-center bg-surface-3 hover:bg-surface text-text-3 hover:text-text-1 transition-colors ml-4 shrink-0"
             >
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -237,7 +237,7 @@ function Accordion({ label, children, onSizeGuide }: {
           onClick={onSizeGuide}
           className="font-sans text-[12px] text-brand hover:text-brand-hover transition-colors font-medium"
         >
-          Guia de tamanhos
+          Size guide
         </button>
       </div>
 
@@ -364,7 +364,7 @@ function ProductCarousel({ images, alt }: { images: string[]; alt: string }) {
               // eslint-disable-next-line @next/next/no-img-element
               <img
                 src={images[idx]}
-                alt={`${alt} — foto ${idx + 1}`}
+                alt={`${alt} - photo ${idx + 1}`}
                 className="w-full h-full object-contain"
                 style={{ mixBlendMode: 'multiply' }}
                 onError={(e) => { (e.target as HTMLImageElement).style.opacity = '0.3' }}
@@ -379,7 +379,7 @@ function ProductCarousel({ images, alt }: { images: string[]; alt: string }) {
             <button
               onClick={() => go(idx - 1, -1)}
               disabled={idx === 0}
-              aria-label="Imagem anterior"
+              aria-label="Previous image"
               className={cn(
                 'absolute left-2 top-1/2 -translate-y-1/2 z-10',
                 'w-8 h-8 rounded-full bg-white/80 backdrop-blur-sm border border-border',
@@ -395,7 +395,7 @@ function ProductCarousel({ images, alt }: { images: string[]; alt: string }) {
             <button
               onClick={() => go(idx + 1, 1)}
               disabled={idx === images.length - 1}
-              aria-label="Próxima imagem"
+              aria-label="Next image"
               className={cn(
                 'absolute right-2 top-1/2 -translate-y-1/2 z-10',
                 'w-8 h-8 rounded-full bg-white/80 backdrop-blur-sm border border-border',
@@ -419,7 +419,7 @@ function ProductCarousel({ images, alt }: { images: string[]; alt: string }) {
             <button
               key={i}
               onClick={() => go(i, i > idx ? 1 : -1)}
-              aria-label={`Ver foto ${i + 1}`}
+              aria-label={`View photo ${i + 1}`}
               className={cn(
                 'shrink-0 rounded-8 overflow-hidden border-2 transition-all duration-150',
                 'w-14 h-14 bg-surface-2',
@@ -437,7 +437,7 @@ function ProductCarousel({ images, alt }: { images: string[]; alt: string }) {
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={src}
-                  alt={`Miniatura ${i + 1}`}
+                  alt={`Thumbnail ${i + 1}`}
                   className="w-full h-full object-contain"
                   style={{ mixBlendMode: 'multiply' }}
                   onError={(e) => { (e.target as HTMLImageElement).style.opacity = '0' }}
@@ -497,10 +497,10 @@ export function ProductConfigurator() {
               className="font-sans font-medium text-text-1 tracking-[-0.03em] leading-[1.1]"
               style={{ fontSize: 'clamp(24px, 3.5vw, 42px)' }}
             >
-              Escolha o seu modelo
+              Choose your model
             </h2>
             <p className="mt-2 font-sans text-[15px] text-text-3 leading-relaxed">
-              Customize cor, tamanho e ajuste — tudo em um só lugar.
+              Customize color, size and fit - all in one place.
             </p>
           </motion.div>
 
@@ -556,7 +556,7 @@ export function ProductConfigurator() {
               <div className="flex flex-col gap-2.5">
                 <div className="flex items-center justify-between">
                   <span className="font-sans text-[11px] font-semibold uppercase tracking-[0.1em] text-text-4">
-                    Cor
+                    Color
                   </span>
                   <AnimatePresence mode="wait">
                     <motion.span
@@ -587,7 +587,7 @@ export function ProductConfigurator() {
               {model.sizes.length > 1 && (
                 <>
                   <Divider />
-                  <Accordion label="Tamanho" onSizeGuide={() => setShowSizeGuide(true)}>
+                  <Accordion label="Size" onSizeGuide={() => setShowSizeGuide(true)}>
                     <div className="flex gap-2 flex-wrap">
                       {model.sizes.map((s) => (
                         <PillToggle key={s} label={s} active={size === s} onClick={() => setSize(s)} />
@@ -601,7 +601,7 @@ export function ProductConfigurator() {
               {model.fits.length > 1 && (
                 <>
                   <Divider />
-                  <Accordion label="Ajuste da armação" onSizeGuide={() => setShowSizeGuide(true)}>
+                  <Accordion label="Frame fit" onSizeGuide={() => setShowSizeGuide(true)}>
                     <div className="flex gap-2 flex-wrap">
                       {model.fits.map((f) => (
                         <PillToggle key={f} label={f} active={fit === f} onClick={() => setFit(f)} />
@@ -623,14 +623,14 @@ export function ProductConfigurator() {
                     {model.price}
                   </span>
                   <span className="rounded-pill px-2.5 py-1 text-[11px] font-semibold bg-brand-light text-brand border border-brand-mid leading-none">
-                    −34% OFF
+                    -34% OFF
                   </span>
                 </div>
 
                 <p className="font-sans text-[12px] text-text-4">
-                  Em até{' '}
-                  <strong className="text-text-2 font-semibold">12× de R$ 33,16</strong>{' '}
-                  sem juros · Frete grátis
+                  Up to{' '}
+                  <strong className="text-text-2 font-semibold">12x of R$ 33.16</strong>{' '}
+                  interest-free · Free shipping
                 </p>
 
                 <Button
@@ -643,7 +643,7 @@ export function ProductConfigurator() {
                     </svg>
                   }
                 >
-                  Comprar agora
+                  Buy now
                 </Button>
               </div>
 

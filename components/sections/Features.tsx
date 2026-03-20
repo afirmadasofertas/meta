@@ -15,34 +15,34 @@ const features: Feature[] = [
   {
     title: 'Meta AI',
     video: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=793912953001076&version=793909863001385&vq=HD',
-    alt: 'Meta AI — assistente integrado nos óculos Ray-Ban',
+    alt: 'Meta AI - integrated assistant in Ray-Ban glasses',
     description:
-      'Informações e sugestões em tempo real. Pergunte sobre pontos de referência, busque receitas e muito mais — sem tirar o celular do bolso.',
+      'Real-time information and suggestions. Ask about landmarks, search for recipes and more - without taking your phone out of your pocket.',
   },
   {
     title: 'Capture',
     video: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=1413159513277003&version=1413159386610349&vq=HD',
-    alt: 'Câmera 3K Ultra HD integrada nos óculos Ray-Ban Meta',
+    alt: '3K Ultra HD camera built into Ray-Ban Meta glasses',
     description:
-      'Grave vídeos em 3K Ultra HD com maior resolução. Capture momentos em detalhes mais nítidos que com os óculos de 1ª geração.',
+      'Record videos in 3K Ultra HD with higher resolution. Capture moments in sharper detail than with 1st generation glasses.',
   },
   {
     title: 'Battery',
     video: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=1743638689622372&version=1743635792955995&vq=HD',
-    alt: 'Bateria com até 8 horas de duração e estojo de carregamento',
+    alt: 'Battery up to 8 hours and charging case',
     description:
-      'Até 8h de bateria, mais 48h com o estojo de carregamento. Carregue 50% em apenas 20 minutos.',
+      'Up to 8h battery, plus 48h with the charging case. Charge 50% in just 20 minutes.',
   },
   {
-    title: 'Ouça',
+    title: 'Listen',
     video: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=1429713411593591&version=1429713321593600&vq=HD',
-    alt: 'Alto-falantes abertos integrados às hastes dos óculos Ray-Ban Meta',
+    alt: 'Open speakers integrated into the stems of Ray-Ban Meta glasses',
     description: (
       <>
         <strong className="font-semibold text-text-2">
-          Alto-falantes conectados por Bluetooth
+          Bluetooth-connected speakers
         </strong>{' '}
-        integrados às hastes dos óculos transmitem somente os áudios que você pode ouvir.
+        built into the temple arms only play audio you can hear.
       </>
     ),
   },

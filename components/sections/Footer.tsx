@@ -4,9 +4,9 @@ import { cn } from '@/lib/utils'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 
 const links = {
-  Produto: ['Wayfarer', 'Headliner', 'Skyler', 'HSTN', 'Vanguard'],
-  Suporte: ['Central de Ajuda', 'Política de Devolução', 'Garantia', 'Contato'],
-  Legal: ['Privacidade', 'Termos de Uso', 'Cookies', 'Acessibilidade'],
+  Product: ['Wayfarer', 'Headliner', 'Skyler', 'HSTN', 'Vanguard'],
+  Support: ['Help Center', 'Return Policy', 'Warranty', 'Contact'],
+  Legal: ['Privacy', 'Terms of Use', 'Cookies', 'Accessibility'],
 }
 
 export function Footer() {
@@ -27,7 +27,7 @@ export function Footer() {
               />
             </div>
             <p className="font-sans text-[13px] text-text-3 leading-[1.7] max-w-xs">
-              Ray-Ban × Meta — câmera, áudio e Meta AI integrados nos óculos que você já usa.
+              Ray-Ban x Meta - camera, audio and Meta AI integrated into the glasses you already wear.
             </p>
           </div>
 
@@ -63,22 +63,20 @@ export function Footer() {
               META QUEST
             </p>
             <p className="font-sans text-[12px] text-text-4 leading-[1.65]">
-              Pais, mães ou responsáveis: Orientações importantes e alertas de segurança para a
-              utilização pelos filhos{' '}
+              Parents or guardians: Important guidance and safety alerts for children's use{' '}
               <a href="#" className="text-brand hover:text-brand-hover underline underline-offset-2 transition-colors">
-                aqui
+                here
               </a>
               .
             </p>
           </div>
           <div>
             <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.1em] text-text-4 mb-2">
-              ÓCULOS COM IA
+              AI GLASSES
             </p>
             <p className="font-sans text-[12px] text-text-4 leading-[1.65]">
-              Alguns recursos da Meta AI estão disponíveis apenas em determinados países e idiomas.
-              Verifique a disponibilidade local. Atualizações de software são necessárias para o
-              desempenho ideal.
+              Some Meta AI features are only available in certain countries and languages.
+              Check local availability. Software updates are required for optimal performance.
             </p>
           </div>
         </div>
@@ -89,7 +87,7 @@ export function Footer() {
             ©2026 Meta.
           </p>
           <div className="flex items-center gap-4">
-            {['Privacidade', 'Cookies', 'Termos'].map((item) => (
+            {['Privacy', 'Cookies', 'Terms'].map((item) => (
               <a
                 key={item}
                 href="#"

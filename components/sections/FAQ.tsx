@@ -6,20 +6,20 @@ import { cn } from '@/lib/utils'
 
 const faqs = [
   {
-    q: 'Precisa de internet para funcionar?',
-    a: 'Não para as funções principais. A câmera e o áudio funcionam offline via Bluetooth. A internet é necessária apenas para sincronizar e compartilhar pelo app.',
+    q: 'Does it need internet to work?',
+    a: 'Not for the main features. The camera and audio work offline via Bluetooth. Internet is only required for syncing and sharing through the app.',
   },
   {
-    q: 'É compatível com meu celular?',
-    a: 'Sim — Android e iOS. O app está disponível nas duas lojas e a configuração leva menos de 2 minutos.',
+    q: 'Is it compatible with my phone?',
+    a: 'Yes - Android and iOS. The app is available on both stores and setup takes less than 2 minutes.',
   },
   {
-    q: 'Quanto dura a bateria?',
-    a: 'Várias horas de uso contínuo para áudio, com autonomia reduzida durante gravações de vídeo. Suficiente para um dia completo no modo normal de uso.',
+    q: 'How long does the battery last?',
+    a: 'Several hours of continuous audio use, with reduced battery life during video recordings. Enough for a full day of normal use.',
   },
   {
-    q: 'E se eu não gostar?',
-    a: 'Você tem 30 dias para testar sem compromisso. Se por qualquer motivo não ficar satisfeito, devolvemos 100% do valor pago — sem perguntas.',
+    q: 'What if I don\'t like it?',
+    a: 'You have 30 days to try it without commitment. If for any reason you\'re not satisfied, we\'ll refund 100% of the amount paid - no questions asked.',
   },
 ]
 
@@ -98,13 +98,13 @@ export function FAQ() {
           className="mb-12 text-center"
         >
           <p className="mb-2 font-sans text-xs font-semibold uppercase tracking-[0.12em] text-brand">
-            Dúvidas frequentes
+            Frequently asked questions
           </p>
           <h2
             className="font-sans font-medium text-text-1 tracking-[-0.03em] leading-[1.1]"
             style={{ fontSize: 'clamp(26px, 4vw, 44px)' }}
           >
-            Tudo que você quer saber.
+            Everything you want to know.
           </h2>
         </motion.div>
 
