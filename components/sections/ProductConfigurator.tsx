@@ -628,7 +628,7 @@ export function ProductConfigurator() {
                 </div>
 
                 {/* Free Shipping badge */}
-                <div className="inline-flex items-center gap-2 rounded-pill px-3 py-2 bg-brand-light border border-brand-mid">
+                <div className="inline-flex items-center gap-2">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="16" height="16" className="text-brand shrink-0" aria-hidden="true">
                     <path d="M1 3h13v13H1zM14 8h4l3 3v5h-7V8z" strokeLinecap="round" strokeLinejoin="round" />
                     <circle cx="5.5" cy="18.5" r="1.5" fill="currentColor" stroke="none" className="text-brand" />

@@ -3,7 +3,7 @@
 import { cn } from '@/lib/utils'
 
 const links = {
-  Product: ['Wayfarer', 'Headliner', 'Skyler', 'HSTN', 'Vanguard'],
+  Product: ['Wayfarer'],
   Support: ['Help Center', 'Return Policy', 'Warranty', 'Contact'],
   Legal: ['Privacy', 'Terms of Use', 'Cookies', 'Accessibility'],
 }
