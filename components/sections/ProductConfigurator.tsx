@@ -497,7 +497,7 @@ export function ProductConfigurator() {
               className="font-sans font-medium text-text-1 tracking-[-0.03em] leading-[1.1]"
               style={{ fontSize: 'clamp(24px, 3.5vw, 42px)' }}
             >
-              Choose your model
+              Choose <span className="text-brand">your model</span>
             </h2>
             <p className="mt-2 font-sans text-[15px] text-text-3 leading-relaxed">
               Customize color, size and fit - all in one place.
