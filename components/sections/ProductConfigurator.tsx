@@ -427,10 +427,10 @@ function ProductCarousel({ images, alt }: { images: string[]; alt: string }) {
               )}
             >
               {isVideo(src) ? (
-                <div className="w-full h-full flex items-center justify-center bg-text-1/8">
+                <div className="w-full h-full flex items-center justify-center bg-brand-light">
                   <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                    <circle cx="9" cy="9" r="8.5" stroke="#65676B" strokeWidth="1"/>
-                    <path d="M7 6.5l5 2.5-5 2.5V6.5z" fill="#65676B"/>
+                    <circle cx="9" cy="9" r="8.5" stroke="#CC0000" strokeWidth="1"/>
+                    <path d="M7 6.5l5 2.5-5 2.5V6.5z" fill="#CC0000"/>
                   </svg>
                 </div>
               ) : (
