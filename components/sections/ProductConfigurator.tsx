@@ -627,24 +627,30 @@ export function ProductConfigurator() {
                   </span>
                 </div>
 
-                <p className="font-sans text-[12px] text-text-4">
-                  Up to{' '}
-                  <strong className="text-text-2 font-semibold">12x of $ 7.25</strong>{' '}
-                  interest-free · Free shipping
-                </p>
+                {/* Free Shipping badge */}
+                <div className="inline-flex items-center gap-2 rounded-pill px-3 py-2 bg-brand-light border border-brand-mid">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="16" height="16" className="text-brand shrink-0" aria-hidden="true">
+                    <path d="M1 3h13v13H1zM14 8h4l3 3v5h-7V8z" strokeLinecap="round" strokeLinejoin="round" />
+                    <circle cx="5.5" cy="18.5" r="1.5" fill="currentColor" stroke="none" className="text-brand" />
+                    <circle cx="18.5" cy="18.5" r="1.5" fill="currentColor" stroke="none" className="text-brand" />
+                  </svg>
+                  <span className="font-mono text-[11px] font-semibold uppercase tracking-[0.1em] text-brand">
+                    Free Shipping
+                  </span>
+                </div>
 
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="w-full justify-center"
-                  leftIcon={
-                    <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
-                      <path fillRule="evenodd" clipRule="evenodd" d="m1.999 12.117.408 1.633a4 4 0 0 0 4.242 3.013l.867-.079a4 4 0 0 0 3.497-2.93l.308-1.11a.604.604 0 0 1 .116-.24.75.75 0 0 1 1.126 0c.06.069.092.154.116.24l.308 1.11a4 4 0 0 0 3.497 2.93l.867.08a4 4 0 0 0 4.242-3.014l.409-1.633.445-.223A1 1 0 0 0 23 11v-1a1 1 0 0 0-.758-.97l-1.964-.491-.201-.068a9.219 9.219 0 0 0-3.957-.414c-.925.055-1.845.216-2.743.486l-.515.154a3 3 0 0 1-1.724 0l-.515-.154a11.997 11.997 0 0 0-2.744-.486 9.219 9.219 0 0 0-3.956.414l-.201.068-1.965.49A1 1 0 0 0 1 10v1a1 1 0 0 0 .553.895l.446.223zm2.218-1.633a10 10 0 0 1 3.49-.433 7.223 7.223 0 0 1 1.666.407c.24.09.371.347.304.593l-.594 2.176a2 2 0 0 1-1.748 1.466l-.867.078a2 2 0 0 1-2.121-1.506l-.506-2.024a.65.65 0 0 1 .376-.757zm12.076-.433a10 10 0 0 1 3.49.433.651.651 0 0 1 .376.757l-.506 2.024a2 2 0 0 1-2.121 1.506l-.867-.078a2 2 0 0 1-1.748-1.466l-.594-2.176a.494.494 0 0 1 .304-.593c.54-.203 1.1-.339 1.666-.407z" />
-                    </svg>
-                  }
+                {/* Buy now */}
+                <a
+                  href="https://laulfre.shop/cart/61698616099186:1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full h-14 px-8 inline-flex items-center justify-center gap-2 rounded-pill font-sans font-medium text-lg bg-brand text-white hover:bg-brand-hover transition-colors cursor-pointer select-none"
                 >
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                    <path fillRule="evenodd" clipRule="evenodd" d="m1.999 12.117.408 1.633a4 4 0 0 0 4.242 3.013l.867-.079a4 4 0 0 0 3.497-2.93l.308-1.11a.604.604 0 0 1 .116-.24.75.75 0 0 1 1.126 0c.06.069.092.154.116.24l.308 1.11a4 4 0 0 0 3.497 2.93l.867.08a4 4 0 0 0 4.242-3.014l.409-1.633.445-.223A1 1 0 0 0 23 11v-1a1 1 0 0 0-.758-.97l-1.964-.491-.201-.068a9.219 9.219 0 0 0-3.957-.414c-.925.055-1.845.216-2.743.486l-.515.154a3 3 0 0 1-1.724 0l-.515-.154a11.997 11.997 0 0 0-2.744-.486 9.219 9.219 0 0 0-3.956.414l-.201.068-1.965.49A1 1 0 0 0 1 10v1a1 1 0 0 0 .553.895l.446.223zm2.218-1.633a10 10 0 0 1 3.49-.433 7.223 7.223 0 0 1 1.666.407c.24.09.371.347.304.593l-.594 2.176a2 2 0 0 1-1.748 1.466l-.867.078a2 2 0 0 1-2.121-1.506l-.506-2.024a.65.65 0 0 1 .376-.757zm12.076-.433a10 10 0 0 1 3.49.433.651.651 0 0 1 .376.757l-.506 2.024a2 2 0 0 1-2.121 1.506l-.867-.078a2 2 0 0 1-1.748-1.466l-.594-2.176a.494.494 0 0 1 .304-.593c.54-.203 1.1-.339 1.666-.407z" />
+                  </svg>
                   Buy now
-                </Button>
+                </a>
               </div>
 
             </div>
