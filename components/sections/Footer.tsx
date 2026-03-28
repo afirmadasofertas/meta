@@ -82,7 +82,7 @@ export function Footer() {
         {/* ── Copyright ────────────────────────────────────────────────────── */}
         <div className="border-t border-border pt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-sans text-[12px] text-text-4">
-            ©2026 Meta.
+            ©2026 Ray-Ban.
           </p>
           <div className="flex items-center gap-4">
             {['Privacy', 'Cookies', 'Terms'].map((item) => (
