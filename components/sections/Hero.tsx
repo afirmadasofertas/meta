@@ -95,13 +95,13 @@ export function Hero() {
           {/* Price */}
           <div className="hero-item-3 flex items-center gap-3 flex-wrap">
             <span className="font-sans text-sm text-text-4 line-through leading-none">
-              $&nbsp;599.00
+              $&nbsp;159.00
             </span>
             <span className="font-sans text-[32px] font-bold leading-none text-text-1 tracking-tight">
-              $&nbsp;397.90
+              $&nbsp;87.00
             </span>
             <span className="inline-flex items-center rounded-pill px-3 py-1 text-[11px] font-semibold bg-brand-light text-brand border border-brand-mid leading-none">
-              -34% OFF
+              -45% OFF
             </span>
           </div>
 

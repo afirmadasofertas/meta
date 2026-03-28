@@ -37,8 +37,8 @@ export const models: GlassesModel[] = [
     thumb: m('Wayfarer (Gen 2)', 'Preto brilhante', '01.webp'),
     sizes: ['Standard', 'Large'],
     fits: ['High Bridge'],
-    price: '$ 397.90',
-    originalPrice: '$ 599.00',
+    price: '$ 87.00',
+    originalPrice: '$ 159.00',
     colors: [
       {
         name: 'Glossy Black',
@@ -111,6 +111,10 @@ export const models: GlassesModel[] = [
       },
     ],
   },
+]
+
+// ─── (only Wayfarer Gen 2 is active) ─────────────────────────────────────────
+const _unused = [
 
   /* ── 2. Wayfarer Gen 1 ──────────────────────────────────────────────────── */
   {
@@ -121,8 +125,8 @@ export const models: GlassesModel[] = [
     thumb: m('Wayfarer (Gen 1)', 'Preto brilhante', 'DM_20260320155948_001.WEBP'),
     sizes: ['Standard', 'Large'],
     fits: ['High Bridge'],
-    price: '$ 397.90',
-    originalPrice: '$ 599.00',
+    price: '$ 87.00',
+    originalPrice: '$ 159.00',
     colors: [
       {
         name: 'Glossy Black',
@@ -210,8 +214,8 @@ export const models: GlassesModel[] = [
     thumb: m('Skyler Gen 2', 'Cinza-esbranquiçado brilhante', 'DM_20260320162858_001.WEBP'),
     sizes: ['Standard'],
     fits: ['High Bridge'],
-    price: '$ 397.90',
-    originalPrice: '$ 599.00',
+    price: '$ 87.00',
+    originalPrice: '$ 159.00',
     colors: [
       {
         name: 'Glossy Shiny White',
@@ -303,8 +307,8 @@ export const models: GlassesModel[] = [
     thumb: m('Skyler Gen 1', 'preto brilhante', 'DM_20260320162431_001.WEBP'),
     sizes: ['Standard'],
     fits: ['High Bridge'],
-    price: '$ 397.90',
-    originalPrice: '$ 599.00',
+    price: '$ 87.00',
+    originalPrice: '$ 159.00',
     colors: [
       {
         name: 'Glossy Black',
@@ -383,8 +387,8 @@ export const models: GlassesModel[] = [
     thumb: m('Headliner (Gen 2)', 'Preto brilhante transparente a safira', 'DM_20260320161505_001.WEBP'),
     sizes: ['Standard', 'Large'],
     fits: ['High Bridge', 'Low Bridge'],
-    price: '$ 397.90',
-    originalPrice: '$ 599.00',
+    price: '$ 87.00',
+    originalPrice: '$ 159.00',
     colors: [
       {
         name: 'Glossy Black Transparent Sapphire',
@@ -463,8 +467,8 @@ export const models: GlassesModel[] = [
     thumb: m('Headliner (Gen 1)', 'Preto brilhante', 'DM_20260320160819_001.WEBP'),
     sizes: ['Standard'],
     fits: ['High Bridge', 'Low Bridge'],
-    price: '$ 397.90',
-    originalPrice: '$ 599.00',
+    price: '$ 87.00',
+    originalPrice: '$ 159.00',
     colors: [
       {
         name: 'Glossy Black',
@@ -532,8 +536,8 @@ export const models: GlassesModel[] = [
     thumb: m('Vanguard', 'Prizm 24K', 'DM_20260320163950_001.WEBP'),
     sizes: ['Standard'],
     fits: ['High Bridge'],
-    price: '$ 397.90',
-    originalPrice: '$ 599.00',
+    price: '$ 87.00',
+    originalPrice: '$ 159.00',
     colors: [
       {
         name: 'Prizm™ 24K',
@@ -591,8 +595,8 @@ export const models: GlassesModel[] = [
     thumb: m('HSTN', 'Black clear', 'DM_20260320163451_001.WEBP'),
     sizes: ['Standard'],
     fits: ['High Bridge'],
-    price: '$ 397.90',
-    originalPrice: '$ 599.00',
+    price: '$ 87.00',
+    originalPrice: '$ 159.00',
     colors: [
       {
         name: 'Black Clear',
@@ -662,7 +666,7 @@ export const models: GlassesModel[] = [
       },
     ],
   },
-]
+] // end _unused
 
 export function getImageUrl(model: GlassesModel, colorIdx: number, _size: string): string {
   return model.colors[colorIdx]?.image ?? model.thumb

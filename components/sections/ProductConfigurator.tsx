@@ -623,13 +623,13 @@ export function ProductConfigurator() {
                     {model.price}
                   </span>
                   <span className="rounded-pill px-2.5 py-1 text-[11px] font-semibold bg-brand-light text-brand border border-brand-mid leading-none">
-                    -34% OFF
+                    -45% OFF
                   </span>
                 </div>
 
                 <p className="font-sans text-[12px] text-text-4">
                   Up to{' '}
-                  <strong className="text-text-2 font-semibold">12x of $ 33.16</strong>{' '}
+                  <strong className="text-text-2 font-semibold">12x of $ 7.25</strong>{' '}
                   interest-free · Free shipping
                 </p>
 
