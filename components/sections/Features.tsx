@@ -87,7 +87,7 @@ function FeatureCard({ title, description, image, video, alt, index }: Feature &
         )}
       </div>
       <div className="flex flex-col gap-2 p-5">
-        <h3 className="font-sans text-[17px] font-semibold leading-snug text-text-1">{title}</h3>
+        <h3 className="font-sans text-[17px] font-semibold leading-snug text-brand">{title}</h3>
         <p className="text-sm leading-[1.65] text-text-3">{description}</p>
       </div>
     </article>

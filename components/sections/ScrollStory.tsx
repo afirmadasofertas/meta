@@ -205,9 +205,9 @@ export function ScrollStory() {
             className="font-sans font-medium tracking-[-0.03em] leading-[1.1] mb-12"
             style={{ fontSize: 'clamp(26px, 7vw, 36px)', color: headingColor }}
           >
-            Simples o suficiente
+            Simple enough
             <br />
-            <span className="font-normal opacity-40">para não pensar.</span>
+            <span className="font-normal opacity-40">to not think about it.</span>
           </motion.h2>
 
           <div className="flex flex-col">
