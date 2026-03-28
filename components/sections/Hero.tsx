@@ -3,13 +3,13 @@
 import { Button } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
 
-/* Vídeo landscape — desktop */
+/* Vídeo landscape — desktop (padding-top: 41.577% → aspect 2.405:1) */
 const CF_EMBED_DESKTOP =
-  'https://customer-siyy2ilzb5oakkgv.cloudflarestream.com/1438dfac981eb0935ddf6ceab521c142/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-siyy2ilzb5oakkgv.cloudflarestream.com%2F1438dfac981eb0935ddf6ceab521c142%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false'
+  'https://customer-siyy2ilzb5oakkgv.cloudflarestream.com/beba307c31a3850e942080e736187759/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-siyy2ilzb5oakkgv.cloudflarestream.com%2Fbeba307c31a3850e942080e736187759%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false'
 
-/* Video portrait — mobile (padding-top: 203.33% → aspect 1/2.0333) */
+/* Vídeo portrait — mobile (padding-top: 179.85% → aspect 1/1.7985) */
 const CF_EMBED_MOBILE =
-  'https://customer-siyy2ilzb5oakkgv.cloudflarestream.com/c8dc3d698f2e3c265dc1b53e04ee5ce6/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-siyy2ilzb5oakkgv.cloudflarestream.com%2Fc8dc3d698f2e3c265dc1b53e04ee5ce6%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false'
+  'https://customer-siyy2ilzb5oakkgv.cloudflarestream.com/919f30c9d913a3ad116dd411917e8d7e/iframe?muted=true&preload=true&loop=true&autoplay=true&poster=https%3A%2F%2Fcustomer-siyy2ilzb5oakkgv.cloudflarestream.com%2F919f30c9d913a3ad116dd411917e8d7e%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600&controls=false'
 
 /* ── Ícone Meta Glasses ── */
 function MetaGlassesIcon() {
@@ -43,7 +43,7 @@ export function Hero() {
         style={{
           border: 'none',
           pointerEvents: 'none',
-          aspectRatio: '2.427 / 1',
+          aspectRatio: '100 / 41.577',
           minWidth: '100%',
           minHeight: '100%',
           width: 'auto',
@@ -53,14 +53,14 @@ export function Hero() {
         aria-hidden="true"
       />
 
-      {/* ── Vídeo mobile (portrait 1:2.0357) — oculto no desktop ── */}
+      {/* ── Vídeo mobile (portrait 1:1.7985) — oculto no desktop ── */}
       <iframe
         src={CF_EMBED_MOBILE}
         className="hero-video-enter absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 block md:hidden"
         style={{
           border: 'none',
           pointerEvents: 'none',
-          aspectRatio: '1 / 2.0333',
+          aspectRatio: '100 / 179.8507',
           minWidth: '100%',
           minHeight: '100%',
           width: 'auto',
