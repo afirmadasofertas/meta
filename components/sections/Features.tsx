@@ -14,28 +14,28 @@ interface Feature {
 const features: Feature[] = [
   {
     title: 'Meta AI',
-    video: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=793912953001076&version=793909863001385&vq=HD',
+    image: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/3a06b9186203527.6571042f9ea74.gif',
     alt: 'Meta AI - integrated assistant in Ray-Ban glasses',
     description:
       'Real-time information and suggestions. Ask about landmarks, search for recipes and more - without taking your phone out of your pocket.',
   },
   {
     title: 'Capture',
-    video: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=1413159513277003&version=1413159386610349&vq=HD',
+    image: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/0e9a1e186203527.6571042f9f624.gif',
     alt: '3K Ultra HD camera built into Ray-Ban Meta glasses',
     description:
       'Record videos in 3K Ultra HD with higher resolution. Capture moments in sharper detail than with 1st generation glasses.',
   },
   {
     title: 'Battery',
-    video: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=1743638689622372&version=1743635792955995&vq=HD',
+    image: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/d47582186203527.6571042f9d450.gif',
     alt: 'Battery up to 8 hours and charging case',
     description:
       'Up to 8h battery, plus 48h with the charging case. Charge 50% in just 20 minutes.',
   },
   {
     title: 'Listen',
-    video: 'https://lookaside.fbsbx.com/elementpath/media/?media_id=1429713411593591&version=1429713321593600&vq=HD',
+    image: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/d9460d186203527.6571042fa091b.gif',
     alt: 'Open speakers integrated into the stems of Ray-Ban Meta glasses',
     description: (
       <>
