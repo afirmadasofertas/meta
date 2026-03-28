@@ -100,7 +100,7 @@ export function Hero() {
             <span className="font-sans text-[32px] font-bold leading-none text-text-1 tracking-tight">
               $&nbsp;397.90
             </span>
-            <span className="inline-flex items-center rounded-pill px-3 py-1 text-[11px] font-semibold bg-[#EBF1FC] text-[#0457CB] border border-[#C2D5F5] leading-none">
+            <span className="inline-flex items-center rounded-pill px-3 py-1 text-[11px] font-semibold bg-brand-light text-brand border border-brand-mid leading-none">
               -34% OFF
             </span>
           </div>

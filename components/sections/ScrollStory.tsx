@@ -130,7 +130,7 @@ export function ScrollStory() {
   const headingColor = useTransform(
     scrollYProgress,
     [0.4, 0.8],
-    ['#050505', '#0457CB'],
+    ['#1A1A1A', '#CC0000'],
   )
 
   return (

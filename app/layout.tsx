@@ -3,6 +3,11 @@ import { LenisProvider } from '@/components/providers/LenisProvider'
 import { Preloader } from '@/components/ui/Preloader'
 import './globals.css'
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
+
 export const metadata: Metadata = {
   title: 'Ray-Ban Meta Smart Glasses — Compre agora com 34% OFF',
   description:
@@ -23,6 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="h-full antialiased">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body className="min-h-full flex flex-col bg-surface text-text-1">
         <Preloader />
         <LenisProvider>
