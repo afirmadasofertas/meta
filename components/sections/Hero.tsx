@@ -78,7 +78,7 @@ export function Hero() {
           <h1
             className={cn(
               'hero-item-1',
-              'font-sans font-medium leading-[1.05] tracking-[-0.04em] text-text-1',
+              'font-sans font-medium leading-[1.05] tracking-[-0.04em] text-white',
             )}
             style={{ fontSize: 'clamp(40px, 6.5vw, 68px)' }}
           >
@@ -87,17 +87,17 @@ export function Hero() {
           </h1>
 
           {/* Subtitle */}
-          <p className="hero-item-2 font-sans text-base leading-[1.7] text-text-2 sm:text-[17px] max-w-[420px]">
+          <p className="hero-item-2 font-sans text-base leading-[1.7] text-white/80 sm:text-[17px] max-w-[420px]">
             Built-in camera, premium open audio and instant connection.
             One tap and done. Discreet design that looks like regular glasses.
           </p>
 
           {/* Price */}
           <div className="hero-item-3 flex items-center gap-3 flex-wrap">
-            <span className="font-sans text-sm text-text-4 line-through leading-none">
+            <span className="font-sans text-sm text-white/50 line-through leading-none">
               $&nbsp;159.00
             </span>
-            <span className="font-sans text-[32px] font-bold leading-none text-text-1 tracking-tight">
+            <span className="font-sans text-[32px] font-bold leading-none text-white tracking-tight">
               $&nbsp;87.00
             </span>
             <span className="inline-flex items-center rounded-pill px-3 py-1 text-[11px] font-semibold bg-brand-light text-brand border border-brand-mid leading-none">
